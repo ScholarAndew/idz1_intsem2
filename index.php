@@ -11,7 +11,12 @@
 <body>
     <div class="container">
         <h1>Movie Search</h1>
-        
+        <div style="margin-bottom: 20px;">
+            <a href="view_logs.php">
+                <button>Переглянути логи запитів</button>
+            </a>
+        </div>
+
         <form action="genre.php" method="GET">
             <label>Genre</label>
             <select name="genre">
